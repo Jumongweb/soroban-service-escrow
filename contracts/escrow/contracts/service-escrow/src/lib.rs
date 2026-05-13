@@ -7,7 +7,7 @@ pub struct ServiceEscrowContract;
 
 #[contractimpl]
 impl ServiceEscrowContract {
-    pub fn hello(env: Env) -> Symbol {
+    pub fn hello(_env: Env) -> Symbol {
         symbol_short!("escrow")
     }
 }
